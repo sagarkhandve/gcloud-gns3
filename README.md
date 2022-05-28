@@ -135,7 +135,7 @@ sudo apt install cmake libelf-dev libpcap0.8-dev -y
 Dynamips - Download, Compile and Install
 ```bash
 cd ~
-git clone git://github.com/GNS3/dynamips.git
+git clone https://github.com/GNS3/dynamips.git
 cd dynamips/
 mkdir build
 cd build/
