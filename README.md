@@ -176,7 +176,7 @@ First add i386 architecture support then update your system and install requirem
 ```bash
 sudo dpkg --add-architecture i386
 sudo apt-get update
-sudo apt-get install libssl1.1:i386 -y
+sudo apt-get install libssl-dev -y
 cd ~
 ```
 ### 3.7 Installing Wireshark
