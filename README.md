@@ -234,4 +234,4 @@ sudo systemctl status gns3
 - Add IOS, Qemu, Cisco Virl, IOU/IOL images and use license key to run Cisco IOU on system<br/>
 
 - Find your instance Public IP and connect to it using browser<br/>
-- Example: http://0.0.0.0:3080
+- Example: http://localhost:3080
