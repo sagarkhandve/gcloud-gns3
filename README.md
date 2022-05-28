@@ -216,7 +216,6 @@ cd ~
 sudo systemctl enable gns3
 sudo systemctl enable docker
 sudo virsh net-autostart default
-ls
 ```
 It is better to reboot your instance at this time.
 ```bash
