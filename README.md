@@ -102,14 +102,14 @@ If the output of the above command is Greater-than zero then we have Virtualizat
 ---
 ### 3.0 Update, Upgrade and Reboot your instance
 ```bash
-sudo apt update && sudo apt upgrade -y && sudo reboot
+sudo apt-get update && sudo apt-get upgrade -y && sudo reboot
 ```
 ### 3.1 uBridge - Download, Compile and Install
 **Dependencies**
 For Ubuntu or other Debian based Linux you need to install this package:
 - libpcap-dev
 ```bash
-sudo apt install make gcc libpcap-dev git wget -y
+sudo apt-get install make gcc libpcap-dev git wget -y
 ```
 uBridge - Download, Compile and Install
 ```bash
@@ -130,7 +130,7 @@ On Debian based systems the following build dependencies are required and can be
 - libelf-dev
 - libpcap0.8-dev
 ```bash
-sudo apt install cmake libelf-dev libpcap0.8-dev -y
+sudo apt-get install cmake libelf-dev libpcap0.8-dev -y
 ```
 Dynamips - Download, Compile and Install
 ```bash
@@ -150,20 +150,20 @@ cd ~
 ### 3.3 Install VPCS
 
 ```bash
-wget -c http://ppa.launchpad.net/gns3/ppa/ubuntu/pool/main/v/vpcs/vpcs_0.6.2-1~eoan1_amd64.deb
-chmod +x vpcs_0.6.2-1~eoan1_amd64.deb
-sudo dpkg -i vpcs_0.6.2-1~eoan1_amd64.deb
+wget -c http://ppa.launchpad.net/gns3/ppa/ubuntu/pool/main/v/vpcs/vpcs_0.8.2-1~jammy1_amd64.deb
+chmod +x vpcs_0.8.2-1~jammy1_amd64.deb
+sudo dpkg -i vpcs_0.8.2-1~jammy1_amd64.deb
 ```
 
 ### 3.4 QEMU and NAT (libvirt) - Install
 
 ```bash
-sudo apt install qemu-kvm qemu-system-x86 cpulimit ovmf uml-utilities bridge-utils virtinst libvirt-daemon-system libvirt-clients -y
+sudo apt-get install qemu-kvm qemu-system-x86 cpulimit ovmf uml-utilities bridge-utils virtinst libvirt-daemon-system libvirt-clients -y
 ```
 
 ### 3.5 Docker - Install
 ```bash
-sudo apt install docker.io -y
+sudo apt-get install docker.io -y
 ```
 
 ### 3.6 Installing i386-libraries for IOU -(IOS on UNIX)
@@ -175,14 +175,14 @@ First add i386 architecture support then update your system and install requirem
 
 ```bash
 sudo dpkg --add-architecture i386
-sudo apt update
-sudo apt install libssl1.1:i386 -y
+sudo apt-get update
+sudo apt-get install libssl1.1:i386 -y
 cd ~
 ```
 ### 3.7 Installing Wireshark
 **"Should non-superusers be able to capture packets?"** select `Yes`.
 ```bash
-sudo apt install wireshark -y
+sudo apt-get install wireshark -y
 ```
 ### 3.8 Create a user for GNS3Server - User: **`gns3`** Pass: **`gns3`**
 ```bash
@@ -198,7 +198,7 @@ groups gns3
 ##  4. Install GNS3 Server
 **Dependencies:**
 ```bash
-sudo apt install python3-setuptools python3-pip python3-aiohttp python3-psutil python3-jsonschema -y
+sudo apt-get install python3-setuptools python3-pip python3-aiohttp python3-psutil python3-jsonschema -y
 ```
 Finally Download and Install GNS3 Server.
 ```bash
