@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license "Go to license section")
 
 ### Deploy gns3 Server with Web-UI in Google Cloud [KVM Enabled VM].
-![145810451-cbc8619c-a548-49be-9ec3-513e54d2a159](https://user-images.githubusercontent.com/90393971/170816257-31925591-97db-4417-81d3-a37025d82acb.png)
+![Blank diagram](https://user-images.githubusercontent.com/90393971/185698540-a2e25eaa-e20b-475e-9fee-995c051743b6.png)
 
 ---
 ## 1. Prepare your Google Cloud environment
