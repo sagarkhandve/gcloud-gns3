@@ -235,3 +235,5 @@ sudo systemctl status gns3
 
 - Find your instance Public IP and connect to it using browser<br/>
 - Example: http://localhost:3080
+
+## 6. Download and install [gns3 webclient](https://github.com/GNS3/gns3-webclient-pack/releases) according to your operating system in your system.
