@@ -97,7 +97,7 @@ If the output of the above command is Greater-than zero then we have Virtualizat
 - Dynamips is required for running IOS routers (using real IOS images) as well as the internal switches and hubs.<br/>
 - VPCS is recommended, it is a builtin node simulating a very simple computer to perform connectivity tests using ping, traceroute.<br/>
 - Qemu is strongly recommended on Linux, as most node types are based on Qemu, for example, Cisco IOSv and Arista vEOS.<br/>
-- libvirt is recommended (Linux only), as it's needed for the NAT cloud<br/>
+- libvirt is recommended (Linux only), as it's needed for the NAT cloud.<br/>
 - Docker is optional (Linux only), some nodes are based on Docker.<br/>
 ---
 ### 3.0 Update, Upgrade and Reboot your instance
