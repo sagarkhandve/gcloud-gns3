@@ -222,7 +222,7 @@ It is better to reboot your instance at this time.
 sudo reboot
 ```
 ---
-## 5. Testing GNS3Server
+## 5. Testing gns3 Server
 login with gns3 user:
 ```bash
 sudo su gns3
