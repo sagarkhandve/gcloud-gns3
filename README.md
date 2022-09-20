@@ -1,5 +1,3 @@
-[![License](https://img.shields.io/badge/License-MIT-blue)](#license "Go to license section") [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsagarkhandve%2Fgcloud-gns3.git&count_bg=%2308DD09&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
-
 ### Deploy gns3 Server with Web-UI in Google Cloud KVM Enabled VM.
 ![Blank diagram](https://user-images.githubusercontent.com/90393971/185698540-a2e25eaa-e20b-475e-9fee-995c051743b6.png)
 
@@ -237,3 +235,6 @@ sudo systemctl status gns3
 - Example: http://localhost:3080
 
 ## 6. Download and install [gns3 webclient](https://github.com/GNS3/gns3-webclient-pack/releases) on your system.
+
+## 
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license "Go to license section")
