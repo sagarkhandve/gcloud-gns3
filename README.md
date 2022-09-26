@@ -236,4 +236,4 @@ sudo systemctl status gns3
 
 ## 6. Download and install [gns3 webclient](https://github.com/GNS3/gns3-webclient-pack/releases) on your system.
 
-[![License](https://img.shields.io/badge/License-MIT-blue)](#license "Go to license section")
+[![License](https://img.shields.io/badge/LICENSE-MIT-blue?style=flat-square&logo)](#license "Go to license section")
